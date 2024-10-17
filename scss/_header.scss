@@ -1,0 +1,28 @@
+header {
+    background-color: $primary-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: $padding-medium 0;
+    }
+  }
+  
+  .menu {
+    display: flex;
+  
+    li {
+      font-weight: bold;
+      margin-left: $margin-medium;
+  
+      a {
+        color: $text-color-white;
+        text-decoration: none;
+      }
+    }
+  }
+  
